@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+h3 {
+    color: gray;
+    justify-self: center;
+}
+
+button {
+    background-color: gray;
+    font-weight: bold;
+    justify-self: center;
+    height: 50px;
+    width: 100px;
+}
+
+#app {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 50px;
+
+}
+
+#grid-container {
+    display: flex;
+    padding: 2px;
+    border: 25px gray ridge;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+#grid {
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.grid-item {
+    width: 20px;
+    height: 20x;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.mini-grid-item {
+    width: 20px;
+    height: 20x;
+    box-shadow: 0px 0px 1px 1px black;
+}
